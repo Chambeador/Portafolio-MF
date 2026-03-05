@@ -3,70 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
     <title>Portafolio</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>Experiencias</li>
-                <li>Proyectos</li>
-                <li>Sobre mi</li>
-                <li>Contacto</li>
+        <nav class = "nav">
+            <ul class = "nav-ul">
+                <li><a href="#experiences">Experiencias</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#about_me">Sobre mi</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <section>
-        <h1>Hola, soy Miguel Angel</h1>
-        <img src = "img/foto_principal.jpg" alt = "foto_computadora" width="300px">
-        <p>
-            Tengo 21 años, Ingeniero Informatico y Software de Bolivia,
-            me apasiona resolver problemas complejos y construir proyectos utiles e interesantes.
-        </p>
-    </section>
-    <section>
-        <h2>Experiencias</h2>
-        <section>
-            <h3>Participante en Competencias ICPC</h3>
-            <p>Tuve el honor de participar en 2 regionales
-                a nivel latinoamericano de Bolivia donde puse en 
-                prueba mis conocimientos sobre algoritmos y 
-                estructura de datos y tambien la gran comunicacion
-                con mi equipo.
+        <div class = "container">
+            <h1>Hola, soy Miguel Angel</h1>
+            <img src = "img/foto_principal.jpg" alt = "foto_computadora" width="300px" >
+            <p>
+                Tengo 21 años, Ingeniero Informatico y Software de Bolivia,
+                me apasiona resolver problemas complejos y construir proyectos utiles e interesantes.
             </p>
-        </section>
-        <section>
-            <h3>Auxiliar de Teoria de Grafos</h3>
-            <p>Tuve el honor de participar en 2 regionales
-                a nivel latinoamericano de Bolivia donde puse en 
-                prueba mis conocimientos sobre algoritmos y 
-                estructura de datos y tambien la gran comunicacion
-                con mi equipo.
+        </div>
+    </section>
+    <section id = "experiences">
+        <div class = "container">
+            <h2>Experiencias</h2>
+            <section>
+                <h3>Participante en Competencias ICPC</h3>
+                <p>Tuve el honor de participar en 2 regionales
+                    a nivel latinoamericano de Bolivia donde puse en 
+                    prueba mis conocimientos sobre algoritmos y 
+                    estructura de datos y tambien la gran comunicacion
+                    con mi equipo.
+                </p>
+            </section>
+            <section>
+                <h3>Auxiliar de Teoria de Grafos</h3>
+                <p>Fui auxiliar de la materia de introduccion a la programacion y teoria de grafos, pudiendo 
+                    ensenar todos mis conocimientos adquiridos en todos estos anos de estudio.
+                </p>
+            </section>
+        </div>
+    </section>
+    <section id = "projects">
+        <div class = "container">
+            <h2>Proyectos</h2>
+            <article>
+                <h3>Formulario de Registro</h3>
+                <p>Un formulario Responsivo desarollado con html y css</p>
+                <a href="https://codeforces.com/profile/Simurdiera_MAC" target="_blank">gitHub</a>
+            </article>
+            <article>
+                <h3>Apuntes Personales</h3>
+                <p>Un conjunto de algoritmos que me sirven para la programacion competitiva</p>
+                <a href="https://github.com/Chambeador/TeamBook-Personal" target="_blank">gitHub</a>
+            </article>
+        </div>
+    </section>
+    <section id = "about_me">
+        <div class="container">
+            <h2>Sobre Mi</h2>
+            <p>Soy una persona apasionada por aprender nuevas tecnologias, hoy en dia 
+                estoy dedicando mi tiempo a aprender frameworks y desarollar proyectos grandes, pensando
+                sobre todo en la parte de diseño, escalabilidad e diseño responsivo.
             </p>
-        </section>
+        </div>
     </section>
-    <section>
-        <h2>Proyectos</h2>
-        <article>
-            <h3>Formulario de Registro</h3>
-            <p>Un formulario Responsivo desarollado con html y css</p>
-            <a href="https://chambeador.github.io/portfolio-web/">gitHub</a>
-        </article>
-        <article>
-            <h3>Apuntes Personales</h3>
-            <p>Un conjunto de algoritmos que me sirven para la programacion competitiva</p>
-            <a href="https://github.com/Chambeador/TeamBook-Personal">gitHub</a>
-        </article>
+    <section id = "#contact">
+        <div class = "container">
+            <a href="mailto:miguelcondoriwtf2@gmail.com">Enviame un mensaje</a>
+        </div>
     </section>
-    <section>
-        <h2>Sobre Mi</h2>
-        <p>Soy una persona apasionada por aprender nuevas tecnologias, hoy en dia 
-            estoy dedicando mi tiempo a aprender frameworks y desarollar proyectos grandes, pensando
-            sobre todo en la parte de diseño, escalabilidad e diseño responsivo.
-        </p>
-    </section>
-    <section>
-        <a href="mailto:miguelcondoriwtf2@gmail.com">Enviame un mensaje</a>
-    </section>
+    <foorter>
+        <p>Todos los derechos estan reservados pe</p>
+        <p>Mis redes</p>
+    </foorter>
 </body>
 </html>
