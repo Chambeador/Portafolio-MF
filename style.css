@@ -1,7 +1,31 @@
+:root {
+    --color-fondo: #F4F1DE;
+    --color-letra: #3D405B;
+    --color-primario: #E07A5F;
+    --color-secundario: #81B29A;
+    --color-acento: #F2CC8F;
+}
+
+body{
+    background-color: var(--color-fondo);
+    font-family: "Inter Tight", sans-serif;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+h1, h2, h3{
+    font-family: "Montserrat", sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color:var(--color-letra);
 }
 
 html{
@@ -13,10 +37,15 @@ html{
     padding: 1rem;
 }
 
-.nav{
-    padding-top: 1rem;
-}
 
+/*AQUI EMPIEZA EL HEADER*/
+
+.nav{
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--color-secundario);
+}
 .nav-ul{
     display: flex;
     justify-content: center;
@@ -26,8 +55,68 @@ html{
 }
 
 
-
 a{
     text-decoration: none;
+    color: black;
 }
 
+/*AQUI EMPIEZA EL HOME*/
+.home{
+    padding-top: 4rem;
+}
+
+.home img{
+    margin: 1rem;
+    width: 100%;
+    max-width: 350px;
+}
+
+.home ul{
+    margin-top: 1rem;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.home li{
+    border: 1px solid black;
+    background-color: var(--color-acento);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+
+/*AQUI EMPIEZA LA PARTE DE EXPERIENCE*/
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.experience img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.experience ul{
+    margin-top: 1rem;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.experience li{
+    border: 1px solid black;
+    background-color: var(--color-acento);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+
+
+/*AQUI EMPIEZA LA PARTE DEL FOOTER*/
+
+.footer{
+    background-color: var(--color-secundario);
+    padding:  1.5rem;
+}
