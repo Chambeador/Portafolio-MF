@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Portafolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class = "nav">
-            <ul class = "nav-ul">
+        <nav class="nav">
+            <ul class="nav-ul">
                 <li><a href="#experiences">Experiencias</a></li>
                 <li><a href="#projects">Proyectos</a></li>
                 <li><a href="#about_me">Sobre mi</a></li>
@@ -18,83 +18,198 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <div class = "container home">
-            <h1>Hola, soy Miguel Angel</h1>
-            <img src = "img/foto_principal.jpg" alt = "foto_computadora" >
-            <p>
-                &lt; Tengo 21 años, Ingeniero Informatico y Software de Bolivia,
-                me apasiona resolver problemas complejos y construir
-                 proyectos utiles e interesantes /&gt;
-            </p>
-            <ul>
-                <a href="mailto:miguelcondoriwtf2@gmail.com" target="_blank"><li>Contactame</li></a>
-                <a href = "https://www.linkedin.com/in/miguel-condori-698671289/" target="_blank"><li>Linkedin</li></a>
-                <a href="https://github.com/Chambeador" target="_blank"><li>GitHub</li></a>
-            </ul>
-        </div>
-    </section>
-    <section id = "experiences">
-        <div class = "container experience">
-            <h2>Experiencias</h2>
-            <section>
-                <img src="/img/foto_principal.jpg">
-                <h3>Participante en Competencias ICPC</h3>
-                <p>Tuve el honor de participar en 2 regionales
-                    a nivel latinoamericano de Bolivia donde puse en 
-                    prueba mis conocimientos sobre algoritmos y 
-                    estructura de datos y tambien la gran comunicacion
-                    con mi equipo.
-                </p>
-                <ul>
-                    <li>View projet</li>
-                    <li>github</li>
-                </ul>
-            </section>
-            <section>
-                <img src="/img/foto_principal.jpg">
 
-                <h3>Auxiliar de Teoria de Grafos</h3>
-                <p>Fui auxiliar de la materia de introduccion a la programacion y teoria de grafos, pudiendo 
-                    ensenar todos mis conocimientos adquiridos en todos estos anos de estudio.
-                </p>
-                <ul>
-                    <li>View projet</li>
-                    <li>github</li>
+    <section id="home">
+        <div class="container hero-container">
+            <article class="hero-image">
+                <img src="img/yo3333.webp" alt="foto_computadora">
+            </article>
+            <section class="hero-text">
+                <h1>Miguel Angel</h1>
+                <h2>Ingeniero Informático</h2>
+                <p>Tengo 21 años, apasionado por resolver problemas complejos y construir proyectos útiles e interesantes.</p>
+                <ul class="hero-links">
+                    <li><a href="mailto:miguelcondoriwtf2@gmail.com">Contactame</a></li>
+                    <li><a href="https://www.linkedin.com/in/miguel-condori-698671289/">Linkedin</a></li>
+                    <li><a href="https://github.com/Chambeador">GitHub</a></li>
                 </ul>
             </section>
         </div>
     </section>
-    <section>
-        <h2>Proyectos</h2>
-        <article>
-            <h3>Formulario de Registro</h3>
-            <p>Un formulario Responsivo desarollado con html y css</p>
-            <a href="https://chambeador.github.io/portfolio-web/">gitHub</a>
-        </article>
-        <article>
-            <h3>Apuntes Personales</h3>
-            <p>Un conjunto de algoritmos que me sirven para la programacion competitiva</p>
-            <a href="https://github.com/Chambeador/TeamBook-Personal">gitHub</a>
-        </article>
-    </section>
-    <section id = "about_me">
-        <div class="container">
-            <h2>Sobre Mi</h2>
-            <p>Soy una persona apasionada por aprender nuevas tecnologias, hoy en dia 
-                estoy dedicando mi tiempo a aprender frameworks y desarollar proyectos grandes, pensando
-                sobre todo en la parte de diseño, escalabilidad e diseño responsivo.
-            </p>
+
+    <section id="experiences">
+        <div class="container experience">
+            <h2>Experiencias</h2>
+
+            <section class="experience-card">
+                <img src="/img/projecto5.webp" alt="Competencias ICPC">
+                <div class = "experience-content">
+                    <h3>Competidor en Competencias ICPC</h3>
+                    <p>Participé en dos regionales latinoamericanos representando a la UMSS, poniendo a prueba mis conocimientos en algoritmos, estructuras de datos y la comunicación con mi equipo.</p>
+                    <ul>
+                        <li><a href="https://example.com" target="_blank">Ver Proyecto</a></li>
+                        <li><a href="https://github.com/Chambeador" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="experience-card">
+                <img src="/img/projecto5.webp" alt="Auxiliar Teoría de Grafos">
+                <div class = "experience-content">
+                    <h3>Auxiliar de Teoría de Grafos</h3>
+                    <p>Actualmente soy auxiliar en la materia de Teoría de Grafos en mi universidad, apoyando a estudiantes con explicaciones, ejemplos y resolución de ejercicios prácticos.</p>
+                    <ul>
+                        <li><a href="https://github.com/Chambeador" target="_blank">Ver Repositorio</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="experience-card">
+                <img src="/img/projecto5.webp" alt="Perfil Codeforces">
+                <div class = "experience-content">
+                    <h3>Programación Competitiva</h3>
+                    <p>Tengo más de 1000 problemas resueltos en Codeforces, demostrando práctica constante y experiencia en algoritmos y estructuras de datos.</p>
+                    <ul>
+                        <li><a href="https://codeforces.com/profile/Chambeador" target="_blank">Ver Perfil</a></li>
+                    </ul>
+                </div>
+            </section>
+
         </div>
     </section>
-    <section id = "contact">
-        <div class = "container">
-            <a href="mailto:miguelcondoriwtf2@gmail.com">Enviame un mensaje</a>
+
+    <section id="projects">
+        <section class="container projects">
+            <h2>Proyectos</h2>
+
+            <article class="projects-card">
+                <img src="img/proyecto44.webp" alt="Portfolio Personal">
+                 <div class="projects-content">
+                    <h3>Mi Portfolio Personal</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p>Un portfolio que desarrollé para mostrar mis proyectos y habilidades, con secciones interactivas y diseño responsivo.</p>
+                    <a href="https://chambeador.github.io/portfolio-web/" class="btn">Ver Proyecto</a>
+                </div>
+            </article>
+
+            <article class="projects-card">
+                <img src="img/proyecto2.webp" alt="Registro Mágico">
+                 <div class="projects-content">
+                    <h3>Registro Mágico</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <p>Un registro con efectos visuales “mágicos” y animaciones creativas para mejorar la experiencia del usuario.</p>
+                    <a href="#" class="btn">Ver Proyecto</a>
+                </div>
+            </article>
+
+            <article class="projects-card">
+                <img src="img/projecto5.webp" alt="Repositorio de Programación Competitiva">
+                <div class="projects-content">
+                    <h3>Programación Competitiva</h3>
+                    <ul>
+                        <li>C++</li>
+                        <li>Python</li>
+                    </ul>
+                    <p>Mi repositorio de GitHub con apuntes y soluciones de problemas de programación competitiva.</p>
+                    <a href="https://github.com/Chambeador/TeamBook-Personal" class="btn">Ver Repositorio</a>
+                </div>
+            </article>
+
+        </section>
+    </section>
+
+    <section id="about_me">
+        <div class="container about_me">
+
+            <img src="img/me.webp" alt="Foto de perfil">
+
+            <div class=" about-content">
+                <h2>Sobre mí</h2>
+
+                <p>
+                    Soy estudiante de ingeniería informática con interés en el desarrollo de software
+                    y la resolución de problemas. Disfruto aprender nuevas tecnologías y trabajar en
+                    proyectos que me permitan mejorar mis habilidades en programación, diseño de
+                    sistemas y desarrollo web.
+                </p>
+
+                <p>
+                    Actualmente me encuentro desarrollando proyectos personales y fortaleciendo mis
+                    conocimientos en algoritmos, estructuras de datos y tecnologías modernas de
+                    desarrollo.
+                </p>
+            </div>
+
         </div>
     </section>
-    <footer class = "footer">
-        <p>Todos los derechos estan reservados pe</p>
-        <p>Mis redes</p>
-    </footer>
+
+    <section id="contact">
+        <div class="container contact">
+
+            <div class="contact-info">
+                <h2>Contacto</h2>
+
+                <p>
+                Me encantaría colaborar contigo. Si tienes algún proyecto en mente o 
+                quieres discutir ideas, no dudes en enviarme un mensaje.
+                ¡Hablemos y hagamos cosas increíbles juntos!
+                </p>
+            </div>
+
+            <form id="contact-form">
+
+                <input type="text" placeholder="Tu nombre" required>
+
+                <input type="email" placeholder="Tu correo" required>
+
+                <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+
+                <button type="submit" id="contact-button">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+
+    <p>© 2026 Miguel Angel Condori</p>
+
+    <ul class="footer-links">
+        <li>
+            <a href="https://github.com/Chambeador" target="_blank">
+                <img src="img/icono git.png" alt="G" class = "footer-icon">
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <img src="img/icono link.png" alt="L" class = "footer-icon">
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <img src="img/codeforces.webp" alt="C" class = "footer-icon">
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <img src="img/ig123.webp" alt="I" class = "footer-icon">
+            </a>
+        </li>
+    </ul>
+
+</footer>
 </body>
 </html>
