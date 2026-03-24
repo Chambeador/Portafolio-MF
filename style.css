@@ -83,14 +83,12 @@ a {
 .hero-image img{
     width: 100%;
     border-radius: 10px;
-    
 }
 
-.hero-text {
+.hero-text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
 .hero-text h1 {
@@ -111,7 +109,6 @@ a {
     margin-top: 1.5rem;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 0.8rem;
     list-style: none;
 }
@@ -217,6 +214,11 @@ a {
     background-color: var(--color-acento);
 }
 
+.projects-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
 
 
 /*SOBRE MI*/
@@ -272,9 +274,7 @@ a {
     font-size: 1.15rem;
 }
 
-.contact textarea{
-    resize: vertical;
-}
+
 .contact button{
     margin-top: 0.8rem;
     padding: 0.5rem 1.2rem;
@@ -282,8 +282,6 @@ a {
     border-radius: 1rem;
     border: 1px solid black;
     background-color: var(--color-acento);
-
-    cursor: pointer;
     align-self: center;
 }
 
@@ -308,121 +306,7 @@ a {
     list-style: none;
 }
 
-/* .footer-links a{
-    padding: 0.3rem 0.8rem;
-    border-radius: 0.8rem;
-    background-color: var(--color-acento);
-    border: 1px solid black;
-} */
-
 .footer-icon{
     width: 40px;
 }
 
-
-
-/*MEDIAS QUERIES DESDE AQUI*/
-
-@media (min-width: 800px){
-        .container{
-            padding-left: 4rem;
-            padding-right: 4rem;
-            max-width: 1000px;
-        }
-
-    .hero-container{
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 3rem;
-    }
-
-    .hero-image img{
-        width: 300px;
-    }
-
-    .hero-text{
-        width: 50%;
-        text-align: left;
-        align-items: flex-start;
-    }
-
-    .experience{
-        align-items: center;
-    }
-
-    .experience-card{
-        flex-direction: row;
-        align-items: center;
-        gap: 2rem;
-        max-width: 900px;
-        padding: 1.5rem;
-    }
-
-    .experience-card img{
-        width: 200px;
-        object-fit: cover;
-    }
-
-    .experience-content{
-        display:flex;
-        flex-direction:column;
-        gap:.7rem;
-    }
-
-    .projects{
-        align-items: center;
-    }
-
-    .projects-card{
-        flex-direction: row;
-        align-items: center;
-        gap: 2rem;
-        max-width: 900px;
-        padding: 1.5rem;
-    }
-
-    .projects-card img{
-        width: 300px;
-        object-fit: cover;
-    }
-
-    .projects-content{
-        display:flex;
-        flex-direction:column;
-        gap:.7rem;
-    }
-
-    .about_me{
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 3rem;
-        text-align: left;
-    }
-
-    .about_me img{
-        width: 220px;
-        height: 220px;
-    }
-
-    .about-content{
-        max-width: 550px;
-    }
-
-    .contact{
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 3rem;
-    }
-
-    .contact-info{
-        max-width: 420px;
-    }
-
-    #contact-form{
-        width: 380px;
-    }
-
-}
